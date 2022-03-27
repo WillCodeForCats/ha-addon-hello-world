@@ -8,7 +8,7 @@ build_from:
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: Hello World"
   org.opencontainers.image.description: "Test repo for a Home Assistant add-on."
-  org.opencontainers.image.source: "https://github.com/WillCodeForCats/ha-addon-hello-world/"
+  org.opencontainers.image.source: "https://github.com/WillCodeForCats/ha-addon-hello-world"
   org.opencontainers.image.licenses: "MIT License"
 args:
   TEMPIO_VERSION: "2021.09.0"
