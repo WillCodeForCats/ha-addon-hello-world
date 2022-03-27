@@ -1,0 +1,11 @@
+{
+  "name": "Hello World",
+  "version": "0.9.0",
+  "url": "https://github.com/WillCodeForCats/ha-addon-hello-world",
+  "slug": "hello_world",
+  "description": "Hello World Addon Test Repo",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "manual",
+  "stage": "experimental"
+}
