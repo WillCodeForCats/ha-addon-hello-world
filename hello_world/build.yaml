@@ -11,4 +11,4 @@ labels:
   org.opencontainers.image.source: "https://github.com/WillCodeForCats/ha-addon-hello-world/"
   org.opencontainers.image.licenses: "MIT License"
 args:
-  TEMPIO_VERSION: "2022.03.0"
+  TEMPIO_VERSION: "2021.09.0"
