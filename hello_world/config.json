@@ -1,6 +1,6 @@
 {
   "name": "Hello World",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "url": "https://github.com/WillCodeForCats/ha-addon-hello-world",
   "slug": "hello_world",
   "description": "Hello World Addon Test Repo",
