@@ -5,7 +5,6 @@
   "slug": "hello_world",
   "description": "Hello World Addon Test Repo",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "application",
   "boot": "manual",
   "stage": "experimental"
 }
