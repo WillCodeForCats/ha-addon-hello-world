@@ -6,5 +6,6 @@
   "description": "Hello World Addon Test Repo",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "boot": "manual",
-  "stage": "experimental"
+  "stage": "experimental",
+  "image": "https://github.com/WillCodeForCats/image-{arch}-ha-addon-hello-world"
 }
