@@ -7,6 +7,5 @@
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "boot": "manual",
   "stage": "experimental",
-  "image": "ghcr.io/willcodeforcats/{arch}-ha-addon-hello-world",
-  "apparmor": true
+  "image": "ghcr.io/willcodeforcats/{arch}-ha-addon-hello-world"
 }
