@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.9.4
+- Version bump to test builder.
+
 ## 0.9.3
 - Use custom apparmor file.
 
