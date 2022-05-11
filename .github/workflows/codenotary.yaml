@@ -1,0 +1,5 @@
+- name: cas notarize docker image and sbom
+  uses: codenotary/cas-notarize-docker-image-bom-github-action@1.0.0
+
+- name: cas authenticate docker image SBOM
+  uses: codenotary/cas-authenticate-docker-bom-github-action@1.0.0
