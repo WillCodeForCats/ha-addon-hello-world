@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.9.6
+- s6-Overlay v3
+
 ## 0.9.4
 - Version bump to test builder.
 
