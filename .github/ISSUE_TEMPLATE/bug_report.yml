@@ -41,6 +41,18 @@ body:
       label: Debug logs
       description: Debug logs are not always necessary, but may be required for more complex issues. You can enable debug logs in Home Assistant. Debug logging will generate a large amount of data. Turn on debug only to observe the isseue then turn off debug during normal operation.
       render: shell
+  - type: input
+    id: ha-version
+    attributes:
+      label: Home Assistant Version
+    validations:
+      required: true
+  - type: input
+    id: ha-version
+    attributes:
+      label: solaredge-modbus-multi Version
+    validations:
+      required: true
   - type: dropdown
     id: installation
     attributes:
