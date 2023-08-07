@@ -22,6 +22,24 @@ body:
       description: A clear and concise description of what you expected to happen.
     validations:
       required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots of the problem and/or configuration.
+  - type: textarea
+    id: diagnostic-file
+    attributes:
+      label: Diagnostic File
+      description: Attach your diagnostic file that shows the issue. The diagnostic file is a snapshot. Make sure it's taken at the exact time the issue is happening.
+      render: shell
+      required: true
+  - type: textarea
+    id: log-file
+    attributes:
+      label: Debug logs
+      description: Debug logs are not always necessary, but may be required for more complex issues. You can enable debug logs in Home Assistant. Debug logging will generate a large amount of data. Turn on debug only to observe the isseue then turn off debug during normal operation.
+      render: shell
   - type: dropdown
     id: installation
     attributes:
@@ -35,12 +53,6 @@ body:
         - Core
     validations:
       required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Debug logs
-      description: Debug logs are not always necessary, but may be required for more complex issues. You can enable debug logs in Home Assistant. Debug logging will generate a large amount of data. Turn on debug only to observe the isseue then turn off debug during normal operation.
-      render: shell
   - type: checkboxes
     id: terms
     attributes:
@@ -51,3 +63,8 @@ body:
           required: true
         - label: My configuration follows https://github.com/WillCodeForCats/solaredge-modbus-multi/wiki/Configuration
           required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here.
