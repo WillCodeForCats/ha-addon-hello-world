@@ -1,6 +1,8 @@
 name: Bug Report
 description: Create a report to help us improve or fix a problem.
 labels: []
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
@@ -31,6 +33,7 @@ body:
       label: Diagnostic File
       description: Attach your diagnostic file that shows the issue. The diagnostic file is a snapshot. Make sure it's taken at the exact time the issue is happening.
       render: shell
+    validations:
       required: true
   - type: textarea
     id: log-file
