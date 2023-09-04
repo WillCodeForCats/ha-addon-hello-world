@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3 # NOTE: Retrieve issue templates.
     - name: Run empty issues closer action
-      uses: rickstaa/empty-issues-closer-action@v1.0.84
+      uses: rickstaa/empty-issues-closer-action@v1.1.17
       env:
         github_token: ${{ secrets.GITHUB_TOKEN }}
       with:
